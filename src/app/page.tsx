@@ -1,6 +1,7 @@
 import ChooseUs from "@/components/ChooseUs";
 import FeatureCourses from "@/components/FeatureCourses";
 import HeroSection from "@/components/Herosection";
+import TestinomialCard from "@/components/TestinomialCards";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <HeroSection/>
     <FeatureCourses/>
     <ChooseUs/>
+    <TestinomialCard/>
     </main>
   );
 }
