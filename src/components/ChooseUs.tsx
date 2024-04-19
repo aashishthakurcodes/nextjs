@@ -13,7 +13,7 @@ const data=[
     },
     {
       "title": "Honda City",
-      "description": "The Honda City has been a long-standing favorite in the sedan segment in India, known for its refined engine, spacious cabin, and excellent driving dynamics. Its smooth and responsive engine options deliver impressive performance while maintaining good fuel efficiency. The City's well-designed interiors offer a comfortable and premium feel, with features such as leather upholstery, sunroof, and touchscreen infotainment system with navigation. With Honda's reputation for reliability and low maintenance costs, the City remains a top choice among sedan buyers, offering a perfect blend of comfort, performance, and practicality."
+      "description": "The  City has been a long-standing favorite in the sedan segment in India, known for its refined engine, spacious cabin, and excellent driving dynamics. Its smooth and responsive engine options deliver impressive performance while maintaining good fuel efficiency. The City's well-designed interiors offer a comfortable and premium feel, with features such as leather upholstery, sunroof, and touchscreen infotainment system with navigation. With Honda's reputation for reliability and low maintenance costs, the City remains a top choice among sedan buyers, offering a perfect blend of comfort, performance, and practicality."
     },
     {
       "title": "Tata Nexon",
