@@ -1,3 +1,4 @@
+
 {
     "courses": [
       {
@@ -8,7 +9,8 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "/suvs/201.jpg" 
+        
       },
       {
         "id": 2,
@@ -17,8 +19,8 @@
         "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
         "price": 109.99,
         "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+        "isFeatured": true,
+        "image": "/suvs/202.jpg" 
       },
       {
         "id": 3,
@@ -28,7 +30,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "/suvs/203.jpg" 
       },
       {
         "id": 4,
@@ -38,7 +40,7 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "/suvs/204.jpg"
       },
       {
         "id": 5,
@@ -47,8 +49,8 @@
         "description": "Learn the art of jazz improvisation with this course designed for all levels.",
         "price": 139.99,
         "instructor": "Chris Davis",
-        "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "isFeatured": true,
+        "image": "/suvs/205.jpg"
       },
       {
         "id": 6,
@@ -58,7 +60,7 @@
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/suvs/206.jpg"
       },
       {
         "id": 7,
@@ -67,8 +69,8 @@
         "description": "Learn the essentials of songwriting to express your musical creativity.",
         "price": 159.99,
         "instructor": "Samantha Miller",
-        "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "isFeatured": true,
+        "image": "/suvs/207.jpg"
       },
       {
         "id": 8,
@@ -78,7 +80,7 @@
         "price": 169.99,
         "instructor": "Luke Harris",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/suvs/208.jpg"
       },
       {
         "id": 9,
@@ -88,7 +90,7 @@
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": true,
-        "image": "/courses/classical-music.jpg"
+        "image": "/suvs/209.jpg"
       },
       {
         "id": 10,
@@ -98,7 +100,7 @@
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,
-        "image": "/courses/blues.jpg"
+        "image": "/suvs/210.jpg"
       }
     ]
   }

@@ -1,7 +1,9 @@
 import ChooseUs from "@/components/ChooseUs";
 import FeatureCourses from "@/components/FeatureCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/Herosection";
 import TestinomialCard from "@/components/TestinomialCards";
+import Instructor from "@/components/instructor";
 import UpcomingEvents from "@/components/upcomingEvents";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       <ChooseUs />
       <TestinomialCard />
       <UpcomingEvents />
+      <Instructor/>
+      <Footer/>
     </main>
   );
 }

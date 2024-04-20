@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
-import car1 from '../../public/27991.jpg'
+import car1 from '../../public/27991.jpg';
+
 import Image from "next/image";
 
 function HeroSection() {
