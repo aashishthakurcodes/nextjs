@@ -3,64 +3,61 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const carsQuote =[
     {
-      "quote": "Embark on a thrilling journey of adventure and discovery, where every turn opens up a world of limitless possibilities and untamed excitement.",
-      "name": "Mahindra Thar",
-      "title": "Adventure-Seeking Off-Roader"
+        "title": "Porsche Cayenne Coupe GT",
+        "stars": 5,
+        "quote": "Absolutely thrilled with my new Cayenne Coupe GT! It's incredibly fast and handles like a dream. The track-focused treatment truly shines through, and it's a joy to drive both on and off the road."
     },
     {
-      "quote": "Indulge in the epitome of refined luxury as you commandeer the roads with confidence and sophistication, making every drive an experience to cherish.",
-      "name": "Tata Harrier",
-      "title": "Premium SUV"
+        "title": "Rolls-Royce Cullinan",
+        "stars": 4.5,
+        "quote": "The Rolls-Royce Cullinan exudes luxury and power. The ride is smooth, and the interior is opulent. While it's not as nimble as some of its competitors, it more than makes up for it in comfort and style."
     },
     {
-      "quote": "Efficiency meets elegance in every mile you traverse, as the perfect blend of style and substance accompanies you on your journey towards greatness.",
-      "name": "Maruti Suzuki Dzire",
-      "title": "Compact Sedan"
+        "title": "Aston Martin DBX 2020",
+        "stars": 4.8,
+        "quote": "The Aston Martin DBX is a true marvel. It combines the performance of a sports car with the practicality of an SUV. The 707 horsepower engine delivers exhilarating power, and the interior is luxurious and spacious."
     },
     {
-      "quote": "Experience power, performance, and perfection fused into a single driving experience, where every moment behind the wheel is a testament to your unstoppable spirit.",
-      "name": "Hyundai Creta",
-      "title": "Versatile Crossover"
+        "title": "Mercedes-AMG G63",
+        "stars": 4.3,
+        "quote": "The Mercedes-AMG G63 is an icon for a reason. It retains the rugged off-road capability of the original G-Wagen while offering improved handling and performance. The interior is plush, and the driving experience is unmatched."
     },
     {
-      "quote": "Drive the future today with sustainable innovation that empowers you to embrace progress while preserving the planet, one electrifying adventure at a time.",
-      "name": "Tata Nexon EV",
-      "title": "Electric Compact SUV"
+        "title": "Range Rover P530",
+        "stars": 4.7,
+        "quote": "The Range Rover P530 is a perfect blend of power and elegance. The twin-turbocharged engine provides ample power, and the interior is spacious and luxurious. It's a pleasure to drive both in the city and on the highway."
     },
     {
-      "quote": "Indulge in luxury with every feature-packed mile, where cutting-edge technology and unparalleled comfort redefine the very essence of automotive excellence.",
-      "name": "MG Hector",
-      "title": "Feature-Packed SUV"
+        "title": "GMC Denali",
+        "stars": 4.9,
+        "quote": "I'm extremely satisfied with my GMC Denali. It offers excellent performance, comfort, and versatility. Whether it's long road trips or daily commutes, the Denali delivers a smooth and enjoyable driving experience."
     },
     {
-      "quote": "Innovate. Inspire. Drive. Redefine your journey with a dynamic companion that embodies the spirit of exploration and sets the standard for modern adventure.",
-      "name": "Kia Seltos",
-      "title": "Dynamic Compact SUV"
+        "title": "Mercedes-AMG GLC 63 S",
+        "stars": 4.8,
+        "quote": "The Mercedes-AMG GLC 63 S is a true powerhouse. The V8 engine provides exhilarating acceleration, and the handling is precise. The interior is well-appointed, and the technology features are top-notch."
     },
     {
-      "quote": "Elevate your driving experience to new heights of excitement and possibility, as you navigate the urban landscape with confidence and style at every turn.",
-      "name": "Ford EcoSport",
-      "title": "Urban Crossover"
+        "title": "Porsche Macan GTS",
+        "stars": 4.6,
+        "quote": "The Porsche Macan GTS is a perfect blend of performance and practicality. It offers sporty handling, a powerful engine, and a comfortable ride. The interior is beautifully crafted, and the driving experience is thrilling."
     },
     {
-      "quote": "Experience legendary performance and iconic design come together in perfect harmony, as you command attention and admiration with every graceful curve and powerful surge.",
-      "name": "Honda City",
-      "title": "Iconic Sedan"
-    },
-    {
-      "quote": "Crafted for the modern explorer, the Renault Kiger invites you to embark on a journey of discovery and adventure, where every drive is a testament to your boundless spirit.",
-      "name": "Renault Kiger",
-      "title": "Compact Urban SUV"
+        "title": "Land Rover Defender 90 V8",
+        "stars": 4.9,
+        "quote": "The Land Rover Defender 90 V8 is an absolute beast. The supercharged engine delivers impressive power, and the off-road capabilities are unmatched. The interior is rugged yet refined, making it perfect for any adventure."
     }
-  ]
+]
+
+
   
  
 function TestinomialCard() {
   return (
     <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
-        <h2 className="text-5xl font-bold text-center mb-8 z-10">Harmony in Motion: The Cadence of Car Culture</h2>
+        <h2 className="text-4xl font-bold text-center mb-8 z-10 font-mono">"Roaring Reviews: Supercar Enthusiasts Speak Out!"</h2>
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
-            <div className="w-full max-w-6xl">
+            <div className="w-full max-w-6xl border-3 border-red-800">
             <InfiniteMovingCards
                 items={carsQuote}
                 direction="right"

@@ -1,106 +1,95 @@
-
 {
-    "courses": [
+  "courses": [
       {
-        "id": 1,
-        "title": "Guitar Fundamentals",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-        "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "/suvs/201.jpg" 
-        
+          "id": 1,
+          "title": "Porsche Cayenne Coupe GT",
+          "slug": "guitar-fundamentals",
+          "description": "It was only a matter of time before Porsche's Motorsport megaminds turned their attention to the Cayenne, giving the firm's high-riding flagship the same track-focused treatment as the 911 GT3. The result is one of the fastest off-roaders you can buy - one that has smashed the SUV lap record at the Nürburgring, should you need to know.",
+          "price": 12999.70,
+          "instructor": "John Doe",
+          "isFeatured": true,
+          "image": "/suvs/201.jpg"
       },
       {
-        "id": 2,
-        "title": "Piano for Beginners",
-        "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-        "price": 109.99,
-        "instructor": "Jane Smith",
-        "isFeatured": true,
-        "image": "/suvs/202.jpg" 
+          "id": 2,
+          "title": "Rolls-Royce Cullinan",
+          "slug": "piano-for-beginners",
+          "description": "Rolls-Royce's entry into the SUV segment uses a developed version of the Phantom’s 6.8-litre V12 engine, making it one of the market’s most powerful off-roaders. It also sits at the top of the tree in terms of outright luxury, and undoubtedly prefers to be driven in a more laid-back, stately fashion than the likes of the Aston Martin DBX or Bentley Bentayga.",
+          "price": 14299.70,
+          "instructor": "Jane Smith",
+          "isFeatured": true,
+          "image": "/suvs/202.jpg"
       },
       {
-        "id": 3,
-        "title": "Advanced Vocal Techniques",
-        "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-        "price": 119.99,
-        "instructor": "Emily Johnson",
-        "isFeatured": true,
-        "image": "/suvs/203.jpg" 
+          "id": 3,
+          "title": "Aston Martin DBX 2020",
+          "slug": "advanced-vocal-techniques",
+          "description": "The Aston Martin DBX has arguably been one of the British brand's most significant new arrivals. So much of the marque’s future success rests on its shoulders, and so far this newest addition to the ever-expanding super-SUV class has done nothing but impress. And the Aston's appeal has only been enhanced by the addition of the 707, which as the name suggests packs a mighty 707 metric horsepower (that's 697bhp in old money).",
+          "price": 15599.70,
+          "instructor": "Emily Johnson",
+          "isFeatured": true,
+          "image": "/suvs/203.jpg"
       },
       {
-        "id": 4,
-        "title": "Drumming Mastery",
-        "slug": "drumming-mastery",
-        "description": "Master the drums with our comprehensive course covering all skill levels.",
-        "price": 129.99,
-        "instructor": "Mike Brown",
-        "isFeatured": false,
-        "image": "/suvs/204.jpg"
+          "id": 4,
+          "title": "Mercedes-AMG G63",
+          "slug": "drumming-mastery",
+          "description": "Mercedes' reimaginging of the G-Wagen – now formally known as the G-Class – has to be regarded as a success. It retains the rich character and off-road ability of the much-loved original but thanks to a new front suspension architecture and steering, its now handles in a fashion more friendly than frightening.",
+          "price": 16899.70,
+          "instructor": "Mike Brown",
+          "isFeatured": false,
+          "image": "/suvs/204.jpg"
       },
       {
-        "id": 5,
-        "title": "Jazz Improvisation",
-        "slug": "jazz-improvisation",
-        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-        "price": 139.99,
-        "instructor": "Chris Davis",
-        "isFeatured": true,
-        "image": "/suvs/205.jpg"
+          "id": 5,
+          "title": "Range Rover P530",
+          "slug": "jazz-improvisation",
+          "description": "It's all change at the top of the Range Rover tree, the arrival of an all-new version signalling the depature of the old car's dependable supercharged V8 and the installation of a BMW-sourced replacement. Essentially the same twin-turbocharged 4.4-litre unit already seen in models such as the M550i, in the Rangie it develops 523bhp, which is enough for 0-62mph in 4.6sec. Refined and with bottomless reserves of urge, it gives the big Brit an effortless elastic energy..",
+          "price": 18199.70,
+          "instructor": "Chris Davis",
+          "isFeatured": false,
+          "image": "/suvs/205.jpg"
       },
       {
-        "id": 6,
-        "title": "Music Production Fundamentals",
-        "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-        "price": 149.99,
-        "instructor": "Alex Wilson",
-        "isFeatured": true,
-        "image": "/suvs/206.jpg"
+          "id": 6,
+          "title": "GMC Denali",
+          "slug": "music-production-fundamentals",
+          "description": "The GMC Yukon Denali is a premium three-row full-size SUV car offered by the brand. It comes in two different trims to choose from, including a Denali Ultimate edition. This SUV is offered with either a gasoline-powered V8 engine or a Duramax turbo diesel engine. It is available in both 2WD as well 4WD drivetrain variants.",
+          "price": 19499.70,
+          "instructor": "Alex Wilson",
+          "isFeatured": true,
+          "image": "/suvs/209.jpg"
       },
       {
-        "id": 7,
-        "title": "Songwriting Essentials",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of songwriting to express your musical creativity.",
-        "price": 159.99,
-        "instructor": "Samantha Miller",
-        "isFeatured": true,
-        "image": "/suvs/207.jpg"
+          "id": 7,
+          "title": "Mercedes-AMG GLC 63 S",
+          "slug": "songwriting-essentials",
+          "description": "The GLC 63 Coupe’s biggest enemy is its five-door sibling because that car offers the same performance from the same intoxicating V8 engine.But if you're smitten by the swoopy, divisive styling of the coupe, the car's desirability will be almost unmatchable. It's packed with the luxurious perceived cabin quality you'd expect from Mercedes-AMG and it also beats the Porsche Macan Turbo to 62mph by half a second - although it can't match that car's dynamic abilities..",
+          "price": 20799.70,
+          "instructor": "Samantha Miller",
+          "isFeatured": true,
+          "image": "/suvs/207.jpg"
       },
       {
-        "id": 8,
-        "title": "Electronic Music Production",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-        "price": 169.99,
-        "instructor": "Luke Harris",
-        "isFeatured": true,
-        "image": "/suvs/208.jpg"
+          "id": 8,
+          "title": "Porsche Macan GTS",
+          "slug": "electronic-music-production",
+          "description": "With a new, all-electric version on the horizon, Porsche has both spruced-up and pared-back the current Macan line-up, with an end-of-life facelift. The flagship Turbo has gone, but the GTS that effectively replaces it packs the same 434bhp turbocharged 2.9-litre V6 so there’s no loss in performance (you’ll be at 62mph from a standstill in just 4.5 seconds, while the top speed is a biscuit under 170mph).",
+          "price": 22099.70,
+          "instructor": "Luke Harris",
+          "isFeatured": true,
+          "image": "/suvs/208.jpg"
       },
       {
-        "id": 9,
-        "title": "Classical Music History",
-        "slug": "classical-music-history",
-        "description": "Explore the rich history of classical music from its origins to the present day.",
-        "price": 179.99,
-        "instructor": "Grace Lee",
-        "isFeatured": true,
-        "image": "/suvs/209.jpg"
-      },
-      {
-        "id": 10,
-        "title": "Blues Guitar Techniques",
-        "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-        "price": 189.99,
-        "instructor": "Ethan Moore",
-        "isFeatured": true,
-        "image": "/suvs/210.jpg"
+          "id": 9,
+          "title": "Land Rover Defender 90 V8",
+          "slug": "classical-music-history",
+          "description": "The V8-engined Defender just breaks our self-imposed budget, but it’s so packed with character we had to include it inthe list.The supercharged 5.0-litre engine is found elsewhere in other JLR products, and while it’s not the height of sophistication there’s no denying it's effective, its throbbing backbeat and supercharged whine adding real character..",
+          "price": 23399.70,
+          "instructor": "Grace Lee",
+          "isFeatured": true,
+          "image": "/suvs/206.jpg"
       }
-    ]
-  }
+    
+  ]
+}

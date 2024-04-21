@@ -4,30 +4,43 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const data=[
     {
-      "title": "Maruti Suzuki Swift",
-      "description": "The Maruti Suzuki Swift is a popular hatchback known for its reliability, fuel efficiency, and affordability. It offers a peppy performance, thanks to its responsive engine and agile handling, making it an enjoyable drive in urban traffic conditions. The Swift's spacious interiors provide ample room for passengers, while its versatile cargo space adds to its practicality. With a host of features such as touchscreen infotainment system, automatic climate control, and keyless entry, the Swift offers excellent value for money, making it a top choice for buyers in India."
+      "id":"1",
+      "title": "Porsche Cayenne Coupe GT",
+      "description": "It was only a matter of time before Porsche's Motorsport megaminds turned their attention to the Cayenne, giving the firm's high-riding flagship the same track-focused treatment as the 911 GT3. The result is one of the fastest off-roaders you can buy - one that has smashed the SUV lap record at the Nürburgring, should you need to know."
     },
     {
-      "title": "Hyundai Creta",
-      "description": "The Hyundai Creta is a compact SUV that has gained widespread popularity in India for its stylish design, comfortable ride quality, and feature-packed interiors. Its refined engine options deliver a balanced mix of power and fuel efficiency, making it suitable for both city commutes and highway drives. Inside the cabin, the Creta offers a premium feel with high-quality materials and a range of advanced features such as a touchscreen infotainment system, wireless charging, and connected car technology. With its spacious seating, ample cargo space, and excellent safety ratings, the Creta continues to dominate the SUV segment, appealing to urban commuters and adventure enthusiasts alike."
+      "id":"2",
+      "title": "Rolls-Royce Cullinan",
+      "description": "TRolls-Royce's entry into the SUV segment uses a developed version of the Phantom’s 6.8-litre V12 engine, making it one of the market’s most powerful off-roaders. It also sits at the top of the tree in terms of outright luxury, and undoubtedly prefers to be driven in a more laid-back, stately fashion than the likes of the Aston Martin DBX or Bentley Bentayga."
     },
     {
-      "title": "Honda City",
-      "description": "The  City has been a long-standing favorite in the sedan segment in India, known for its refined engine, spacious cabin, and excellent driving dynamics. Its smooth and responsive engine options deliver impressive performance while maintaining good fuel efficiency. The City's well-designed interiors offer a comfortable and premium feel, with features such as leather upholstery, sunroof, and touchscreen infotainment system with navigation. With Honda's reputation for reliability and low maintenance costs, the City remains a top choice among sedan buyers, offering a perfect blend of comfort, performance, and practicality."
+      "id":"3",
+      "title": "Aston Martin DBX 2020",
+      "description": "The Aston Martin DBX has arguably been one of the British brand's most significant new arrivals. So much of the marque’s future success rests on its shoulders, and so far this newest addition to the ever-expanding super-SUV class has done nothing but impress. And the Aston's appeal has only been enhanced by the addition of the 707, which as the name suggests packs a mighty 707 metric horsepower (that's 697bhp in old money)"
     },
     {
-      "title": "Tata Nexon",
-      "description": "The Tata Nexon is a compact SUV that has gained traction in the Indian market for its bold design, robust build quality, and value-for-money proposition. Its striking exterior design, with Tata's signature 'Humanity Line' grille and coupe-like roofline, sets it apart in its segment. The Nexon offers a comfortable and feature-rich cabin, with highlights such as a Harman touchscreen infotainment system, multi-function steering wheel, and automatic climate control. Safety is a top priority for the Nexon, with standard features like dual airbags, ABS with EBD, and rear parking sensors. With competitive pricing and a range of engine options, including petrol, diesel, and electric, the Nexon appeals to buyers looking for a stylish, safe, and practical urban SUV."
+      "id":"4",
+      "title": "Mercedes-AMG G63",
+      "description": "TMercedes' reimaginging of the G-Wagen – now formally known as the G-Class – has to be regarded as a success. It retains the rich character and off-road ability of the much-loved original but thanks to a new front suspension architecture and steering, its now handles in a fashion more friendly than frightening."
     },
     {
-      "title": "Mahindra Thar",
-      "description": "The Mahindra Thar is an iconic off-roader that holds a special place in the hearts of adventure enthusiasts in India. Its rugged design, with classic Jeep-inspired elements, exudes a sense of adventure and capability. Available in both soft-top and hard-top variants, the Thar offers open-air driving experiences and unmatched off-road capabilities. Its powerful engine options, including petrol and diesel, coupled with features like 4x4 drivetrain, low-range transfer case, and locking differentials, make it capable of tackling the toughest terrains with ease. Despite its rugged persona, the Thar offers modern comforts and conveniences, such as touchscreen infotainment system, cruise control, and power windows. With its timeless appeal and unbeatable off-road prowess, the Mahindra Thar continues to be the preferred choice for those seeking thrilling off-road adventures."
+      "id":"5",
+      "title": "Range Rover P530",
+      "description": "It's all change at the top of the Range Rover tree, the arrival of an all-new version signalling the depature of the old car's dependable supercharged V8 and the installation of a BMW-sourced replacement. Essentially the same twin-turbocharged 4.4-litre unit already seen in models such as the M550i, in the Rangie it develops 523bhp, which is enough for 0-62mph in 4.6sec.."
     }
   ]
   
 function ChooseUs() {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center ">
+      <div className="text-center m-8">
+          <h2 className="font-poppins text-base text-teal-600 font-semibold tracking-wide uppercase">
+            Unique Colors
+          </h2>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          Exceptional cars, always at our disposal
+          </p>
+        </div>
         <StickyScroll content={data} />
     </div>
   )

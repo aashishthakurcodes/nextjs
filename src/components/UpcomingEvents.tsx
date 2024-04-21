@@ -1,7 +1,10 @@
 import { HoverEffect } from "./ui/card-hover-effect";
 function UpcomingEvents (){
     return(
-        <div className="max-w-5xl mx-auto px-8">
+        <div className="max-w-5xl mx-auto px-8 flex flex-col">
+          <div>
+            <h2 className="text-white">Badge of Excellence: Exploring Supercar Emblem History"</h2>
+          </div>
       <HoverEffect items={projects} />
     </div>
     )
@@ -9,39 +12,39 @@ function UpcomingEvents (){
 }
 export const projects = [
     {
-      title: "Stripe",
+      title: "FERRARI 488GTB",
       description:
-        "A technology company that builds economic infrastructure for the internet.",
+        "The prancing horse is a symbol of power and speed; the horse was originally the emblem of Count Francesco Baracca..",
       link: "https://stripe.com",
     },
     {
-      title: "Netflix",
+      title: "LAMBORGHINI AVENTADOOR",
       description:
-        "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+        "Ferruccio Lamborghini saw the bull as a powerful and determined animal that embodied the strength and performance of his sports cars.",
       link: "https://netflix.com",
     },
     {
-      title: "Google",
+      title: "ASTON MARTIN VANTAGE",
       description:
-        "A multinational technology company that specializes in Internet-related services and products.",
+        "The company's founders, Lionel Martin and Robert Bamford, were both aviation enthusiasts and chose the wings as a symbol of speed, power, and freedom.",
       link: "https://google.com",
     },
     {
-      title: "Meta",
+      title: "PORSCHE 911 TURBO C",
       description:
-        "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+        "The Porsche logo is a combination of different elements that represent the origin of the company (Stuttgart) and the culture of the region in which it is located..",
       link: "https://meta.com",
     },
     {
-      title: "Amazon",
+      title: "Mercedes-Benz AMG",
       description:
-        "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+        "According to Daimler-Motoren-Gesellschaft (DMG), the three-pointed star symbolized the use of their engines on land, sea, and air.",
       link: "https://amazon.com",
     },
     {
-      title: "Microsoft",
+      title: "Audi R8",
       description:
-        "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+        "The four rings in the Audi logo symbolize the unity and collaboration between these four brands that came together to form the Auto Union and eventually Audi.",
       link: "https://microsoft.com",
     },
   ];

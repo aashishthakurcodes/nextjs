@@ -25,7 +25,7 @@ function FeaturedCourses() {
 
 
   return (
-    <div className="py-12 bg-gray-900">
+    <div className="py-12 bg-black">
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
@@ -42,7 +42,7 @@ function FeaturedCourses() {
           {featuredCourses.map((course: Course) => (
             
             <div key={course.id} className="flex justify-center">
-              <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+              <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-black overflow-hidden h-full max-w-sm">
                 <Image
                  src={course.image}
                  alt={course.title} 
@@ -57,7 +57,7 @@ function FeaturedCourses() {
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                     {course.description}
                   </p>
-                  <Link href={`/courses/${course.slug}`}>Learn More</Link>
+                  <Link href={`/courses/${course.id}`}>Learn More</Link>
                 </div>
               </BackgroundGradient>
             </div>
