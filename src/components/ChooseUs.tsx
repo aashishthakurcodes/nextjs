@@ -1,34 +1,150 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
+import Image from "next/image";
 
-const data=[
-    {
-      "id":"1",
-      "title": "Porsche Cayenne Coupe GT",
-      "description": "It was only a matter of time before Porsche's Motorsport megaminds turned their attention to the Cayenne, giving the firm's high-riding flagship the same track-focused treatment as the 911 GT3. The result is one of the fastest off-roaders you can buy - one that has smashed the SUV lap record at the Nürburgring, should you need to know."
-    },
-    {
-      "id":"2",
-      "title": "Rolls-Royce Cullinan",
-      "description": "TRolls-Royce's entry into the SUV segment uses a developed version of the Phantom’s 6.8-litre V12 engine, making it one of the market’s most powerful off-roaders. It also sits at the top of the tree in terms of outright luxury, and undoubtedly prefers to be driven in a more laid-back, stately fashion than the likes of the Aston Martin DBX or Bentley Bentayga."
-    },
-    {
-      "id":"3",
-      "title": "Aston Martin DBX 2020",
-      "description": "The Aston Martin DBX has arguably been one of the British brand's most significant new arrivals. So much of the marque’s future success rests on its shoulders, and so far this newest addition to the ever-expanding super-SUV class has done nothing but impress. And the Aston's appeal has only been enhanced by the addition of the 707, which as the name suggests packs a mighty 707 metric horsepower (that's 697bhp in old money)"
-    },
-    {
-      "id":"4",
-      "title": "Mercedes-AMG G63",
-      "description": "TMercedes' reimaginging of the G-Wagen – now formally known as the G-Class – has to be regarded as a success. It retains the rich character and off-road ability of the much-loved original but thanks to a new front suspension architecture and steering, its now handles in a fashion more friendly than frightening."
-    },
-    {
-      "id":"5",
-      "title": "Range Rover P530",
-      "description": "It's all change at the top of the Range Rover tree, the arrival of an all-new version signalling the depature of the old car's dependable supercharged V8 and the installation of a BMW-sourced replacement. Essentially the same twin-turbocharged 4.4-litre unit already seen in models such as the M550i, in the Rangie it develops 523bhp, which is enough for 0-62mph in 4.6sec.."
-    }
-  ]
+const content = [
+  {
+    title: "Bentley",
+    description:
+      "The wings in the Bentley's logo stand for speed and grace and The Bentley automobile logo is quite simple in concept, consisting of a bird's wings and tail feathers with a capital “B” in the middle..",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+      <Image
+        src="/logo/th.jpeg"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="sunx"
+      />
+    </div>
+    ),
+  },
+  {
+    title: "Aston Martin’s Timeless Wings",
+    description:
+      "The company's founders, Lionel Martin and Robert Bamford, were both aviation enthusiasts and chose the wings as a symbol of speed, power, and freedom..",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src="/logo/aston.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="sunx"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Rolls-Royc",
+    description:
+      "The overlapping “R” in Rolls-Royce logo represents “you have me, I have you”. andThe Rolls-Royce logo, two Rs overlapping represents both harmony and a harmonious relationship.",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src="/logo/rr2.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="sunx"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Porsche’s Dynamic Crest",
+    description:
+      "The Porsche logo is a combination of different elements that represent the origin of the company (Stuttgart) and the culture of the region in which it is located..",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+      <Image
+        src="/logo/pors.jpg"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="sunx"
+      />
+    </div>
+    ),
+  },
+  {
+    title: "Lamborghini – Raging Bull",
+    description:
+      "Ferruccio Lamborghini saw the bull as a powerful and determined animal that embodied the strength and performance of his sports cars.",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+      <Image
+        src="/logo/lamb.jpg"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="sunx"
+      />
+    </div>
+    ),
+  },
+  {
+    title: "Mercedes-Benz AMG",
+    description:
+      "According to Daimler-Motoren-Gesellschaft (DMG), the three-pointed star symbolized the use of their engines on land, sea, and air..",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+      <Image
+        src="/logo/mrec.jpg"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="sunx"
+      />
+    </div>
+    ),
+  },
+  {
+    title: "Audi R8",
+    description:
+      ".The overlapping circles in Audi's logo represent unity and The Audi logo is one of my favorite vehicle logos and brands of all time—it is as basic and effective as you can find in business.",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+      <Image
+        src="/logo/audi.png"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="sunx"
+      />
+    </div>
+    ),
+  },
+  {
+    title: "Land Rover",
+    description:
+      "The Land Rover logo shows off the rich history of the brand. Represents elegant and elite cars of a premium class. Rich decoration, impressive dimensions – all these are elements of the lifestyle of off-road drivers, which the emblem conveys.",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+      <Image
+        src="/logo/lr.jpeg"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="sunx"
+      />
+    </div>
+    ),
+  },
+  {
+    title: "The Story Behind Legendary Car Logos",
+    description:
+      "Explore the fascinating world of automotive branding and uncover the meanings embedded within iconic car logos.",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+     
+    </div>
+    ),
+  },
+
+
+];
   
 function ChooseUs() {
   return (
@@ -38,10 +154,10 @@ function ChooseUs() {
             Unique Colors
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-          Exceptional cars, always at our disposal
+          Badge of Excellence: Exploring Supercar Emblem History
           </p>
         </div>
-        <StickyScroll content={data} />
+        <StickyScroll content={content} />
     </div>
   )
 }

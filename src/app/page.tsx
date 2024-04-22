@@ -16,7 +16,7 @@ export default function Home() {
       {/* <FeatureCourses /> */}
       <ChooseUs />
       <TestinomialCard />
-      <UpcomingEvents />
+      {/* <UpcomingEvents /> */}
       <Instructor/>
       
       <Footer/>
