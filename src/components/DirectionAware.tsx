@@ -1,5 +1,6 @@
 "use client"
 
+import Link from 'next/link';
 import jsonData from '../data/music.json';
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
 
@@ -26,12 +27,16 @@ function DirectionAware() {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-cente">
+          
             {jsonData.courses.map((course: Course) => (
+                <Link href={`/MoreInfo/${course.id}`}>
                 <DirectionAwareHover key={course.id} imageUrl={course.image}>
                     <p className="font-bold text-xl">{course.title}</p>
                     <p className="font-normal text-sm">${course.price}</p>
                 </DirectionAwareHover>
+                </Link>
             ))}
+           
         </div>
         </div>
     );

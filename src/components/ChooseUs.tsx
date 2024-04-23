@@ -151,7 +151,7 @@ function ChooseUs() {
     <div className="flex flex-col justify-center items-center ">
       <div className="text-center m-8">
           <h2 className="font-poppins text-base text-teal-600 font-semibold tracking-wide uppercase">
-            Unique Colors
+          Symbol Stories
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
           Badge of Excellence: Exploring Supercar Emblem History

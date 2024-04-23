@@ -3,46 +3,55 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const carsQuote =[
     {
+       "name":"arun",
         "title": "Porsche Cayenne Coupe GT",
         "stars": 5,
         "quote": "Absolutely thrilled with my new Cayenne Coupe GT! It's incredibly fast and handles like a dream. The track-focused treatment truly shines through, and it's a joy to drive both on and off the road."
     },
     {
+        "name":"arun",
         "title": "Rolls-Royce Cullinan",
         "stars": 4.5,
         "quote": "The Rolls-Royce Cullinan exudes luxury and power. The ride is smooth, and the interior is opulent. While it's not as nimble as some of its competitors, it more than makes up for it in comfort and style."
     },
     {
+        "name":"arun",
         "title": "Aston Martin DBX 2020",
         "stars": 4.8,
         "quote": "The Aston Martin DBX is a true marvel. It combines the performance of a sports car with the practicality of an SUV. The 707 horsepower engine delivers exhilarating power, and the interior is luxurious and spacious."
     },
     {
+        "name":"arun",
         "title": "Mercedes-AMG G63",
         "stars": 4.3,
         "quote": "The Mercedes-AMG G63 is an icon for a reason. It retains the rugged off-road capability of the original G-Wagen while offering improved handling and performance. The interior is plush, and the driving experience is unmatched."
     },
     {
+        "name":"arun",
         "title": "Range Rover P530",
         "stars": 4.7,
         "quote": "The Range Rover P530 is a perfect blend of power and elegance. The twin-turbocharged engine provides ample power, and the interior is spacious and luxurious. It's a pleasure to drive both in the city and on the highway."
     },
     {
+        "name":"arun",
         "title": "GMC Denali",
         "stars": 4.9,
         "quote": "I'm extremely satisfied with my GMC Denali. It offers excellent performance, comfort, and versatility. Whether it's long road trips or daily commutes, the Denali delivers a smooth and enjoyable driving experience."
     },
     {
+        "name":"arun",
         "title": "Mercedes-AMG GLC 63 S",
         "stars": 4.8,
         "quote": "The Mercedes-AMG GLC 63 S is a true powerhouse. The V8 engine provides exhilarating acceleration, and the handling is precise. The interior is well-appointed, and the technology features are top-notch."
     },
     {
+        "name":"arun",
         "title": "Porsche Macan GTS",
         "stars": 4.6,
         "quote": "The Porsche Macan GTS is a perfect blend of performance and practicality. It offers sporty handling, a powerful engine, and a comfortable ride. The interior is beautifully crafted, and the driving experience is thrilling."
     },
-    {
+    {"name":"arun",
+
         "title": "Land Rover Defender 90 V8",
         "stars": 4.9,
         "quote": "The Land Rover Defender 90 V8 is an absolute beast. The supercharged engine delivers impressive power, and the off-road capabilities are unmatched. The interior is rugged yet refined, making it perfect for any adventure."

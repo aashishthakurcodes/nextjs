@@ -13,7 +13,7 @@ function HeroSection() {
         fill="white"
       />
       <div className="p-4 relative z-10 w-full text-center">
-        <h1 className="mt-20 md:mt-10 text-3xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"> The Detailing <span className="text-red-600">Mafia</span></h1>
+        <h1 className="mt-20 md:mt-10 text-3xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Comfort Drive: <span className="text-red-600">Sporting Elegance</span></h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">Elevate your ride to new heights of brilliance with our signature detailing expertise. Discover automotive excellence at The Detailing Mafia</p>
         <div className="mt-4">
           {/* <Link href={"/courses"}>
