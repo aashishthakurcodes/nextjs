@@ -25,7 +25,7 @@ function AboutUs() {
               Your Premier Destination for <span className="text-red-600">Automotive Luxury</span>
             </h3>
             <div style={{ maxWidth: "700px", margin: "0 auto" }}>
-              <p className="text-lg tracking-wide leading-8">Whether you aspire to elevate your vehicle's aesthetics to new
+              <p className="text-lg tracking-wide leading-8">Whether you aspire to elevate your vehicle aesthetics to new
                 heights or safeguard its integrity for the long haul Comfort
                 Drive stands as your unrivaled beacon of automotive opulence and
                 excellence. Entrust your ride to us and experience the epitome

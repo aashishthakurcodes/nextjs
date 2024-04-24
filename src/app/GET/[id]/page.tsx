@@ -22,8 +22,8 @@ function MoreInfo({ params }) {
             <div className=" md:grid-cols-2 gap-8">
                 <div className="bg-white shadow-xl rounded-lg overflow-hidden">
                     <Image
-                       width={100}
-                       height={100}
+                       width={300}
+                       height={200}
                         className="w-full h-auto object-cover"
                         src={courseItem.image}
                         alt={courseItem.title}

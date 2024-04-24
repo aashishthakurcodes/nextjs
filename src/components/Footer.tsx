@@ -1,6 +1,6 @@
 function Footer(){
     return(
-      <section className="bg-dark footercs border-4 border-gray-400 rounded-xl">
+      <section className="bg-dark footercs bg-gray-800 rounded-xl">
       <div className="max-w-screen-xl px-4 py-4 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
        
         <div className="flex justify-center mt-2 space-x-6">

@@ -10,7 +10,6 @@ export default function Home() {
       {/* <h1 className="text-2xl text-center">Aashish Singh</h1> */}
       <HeroSection />
       <DirectionAware/>
-
       <ChooseUs />
       <TestinomialCard />
       <Instructors/>
