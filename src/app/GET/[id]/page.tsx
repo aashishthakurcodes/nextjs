@@ -4,7 +4,7 @@ import courseData from "../../../data/music.json";
 import Link from "next/link";
 import Image from "next/image";
 
-function MoreInfo({ params }) {
+function MoreInfo({ params }:{params:{id:string}}) {
     const courseItem = courseData.courses.find(
         (item) => item.id.toString() === params.id
     );
