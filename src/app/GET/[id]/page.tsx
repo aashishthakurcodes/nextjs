@@ -2,6 +2,7 @@
 import React from "react";
 import courseData from "../../../data/music.json";
 import Link from "next/link";
+import Image from "next/image";
 
 function MoreInfo({ params }) {
     const courseItem = courseData.courses.find(
@@ -20,7 +21,9 @@ function MoreInfo({ params }) {
         >
             <div className=" md:grid-cols-2 gap-8">
                 <div className="bg-white shadow-xl rounded-lg overflow-hidden">
-                    <img
+                    <Image
+                       width={100}
+                       height={100}
                         className="w-full h-auto object-cover"
                         src={courseItem.image}
                         alt={courseItem.title}
@@ -32,7 +35,7 @@ function MoreInfo({ params }) {
                         <div className="mt-4 flex justify-end">
                             <Link href={courseItem.link}>
                             <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-                                Visit
+                             Visit
                             </button>
                             </Link>
                         </div>

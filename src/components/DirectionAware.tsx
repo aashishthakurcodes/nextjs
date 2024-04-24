@@ -23,7 +23,7 @@ function DirectionAware() {
           OUR INVENTORY
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-          The most important persons arrive in style
+          &quot;The most important persons arrive in style&quot;
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-cente">

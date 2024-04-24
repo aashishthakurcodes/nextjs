@@ -3,7 +3,7 @@ function UpcomingEvents (){
     return(
         <div className="max-w-5xl mx-auto px-8 flex flex-col">
           <div>
-            <h2 className="text-white">Badge of Excellence: Exploring Supercar Emblem History"</h2>
+            <h2 className="text-white">&quot;Badge of Excellence: Exploring Supercar Emblem History&quot;</h2>
           </div>
       <HoverEffect items={projects} />
     </div>
