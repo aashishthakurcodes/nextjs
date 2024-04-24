@@ -29,7 +29,7 @@ function DirectionAware() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-cente">
           
             {jsonData.courses.map((course: Course) => (
-                <Link href={`/MoreInfo/${course.id}`}>
+                <Link key={course.id} href={`/GET/${course.id}`}>
                 <DirectionAwareHover key={course.id} imageUrl={course.image}>
                     <p className="font-bold text-xl">{course.title}</p>
                     <p className="font-normal text-sm">${course.price}</p>

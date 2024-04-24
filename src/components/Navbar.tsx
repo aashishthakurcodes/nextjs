@@ -24,13 +24,13 @@ function Navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
 
-        <MenuItem setActive={setActive} active={active} item="Courses">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-          </div>
-        </MenuItem>
+        <Link href={"/Aboutus"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="About Us"
+          ></MenuItem>
+        </Link>
 
         <Link href={"/ContactUs"}>
           <MenuItem
