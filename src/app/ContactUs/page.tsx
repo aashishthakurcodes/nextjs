@@ -10,12 +10,11 @@ function ContactUs() {
   };
 
   return (
-    <div className="relative h-[40rem] overflow-hidden m-10 w-auto">
-    <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
-      <div className="w-full  my-10 md:w-2/3 lg:w-1/2 xl:w-1/3 rounded-xl">
+    <div className="relative h-[40rem] overflow-hidden flex justify-center px-10 w-auto">
+   <div className=" my-10 md:w-2/3 lg:w-1/3 xl:w-1/3 sm:w-2/3 rounded-xl">
         <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="white" />
        
-        <div className="border-4 p-10 mt-8 mx-auto bg-white rounded-3xl">
+        <div className="border-4 p-5 pt-10 mt-8 mx-auto bg-white rounded-3xl">
           <h2 className="text-4xl text-gray-800 font-bold mb-4">Contact Us</h2>
           <form>
             <div className="w-full">
@@ -67,7 +66,6 @@ function ContactUs() {
           </form>
         </div>
       </div>
-    </WavyBackground>
     </div>
   );
 }
