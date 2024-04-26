@@ -53,7 +53,7 @@
             "instructor": "Chris Davis",
             "isFeatured": false,
             "image": "/suvs/205.jpg",
-            "link": "https://www.landrover.com/"
+            "link": "https://www.landrover.com/index.html"
         },
         {
             "id": 6,
@@ -97,7 +97,7 @@
             "instructor": "Grace Lee",
             "isFeatured": true,
             "image": "/suvs/206.jpg",
-            "link": "https://www.landrover.com/"
+            "link": "https://www.landrover.com/index.html"
         }
     ]
   }

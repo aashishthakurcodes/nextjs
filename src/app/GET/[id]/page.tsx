@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import courseData from "../../../data/music.json";
+import courseData from "../../../data/carInfo.json";
 import Link from "next/link";
 import Image from "next/image";
 

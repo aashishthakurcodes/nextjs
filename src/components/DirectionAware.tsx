@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link';
-import jsonData from '../data/music.json';
+import jsonData from '../data/carInfo.json';
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
 
 interface Course {

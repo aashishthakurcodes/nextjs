@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Supercharged || Next",
+  title: "SuperCharged || Next",
   description: " Unleash the power of Next.js to create a high-speed supercar information hub",
 };
 

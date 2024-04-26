@@ -1,6 +1,6 @@
 'use client'
 import { Spotlight } from "@/components/ui/Spotlight";
-import { WavyBackground } from "@/components/ui/wavy-background";
+
 import { FormEvent } from "react";
 
 function ContactUs() {
